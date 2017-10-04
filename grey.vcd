@@ -1,0 +1,70 @@
+$var wire 1 ! bn_clk $end
+$var wire 3 " __main___q $end
+$var wire 3 # __main___q_next $end
+$var wire 3 $ __main___q_binary $end
+$var wire 3 % __main___q_next_binary $end
+$var wire 3 & __main___i $end
+$var wire 3 ' __main___o $end
+$var wire 3 ( __main___o_comb $end
+$var wire 1 ) sys_clk $end
+$dumpvars
+0!
+b000 "
+b000 #
+b000 $
+b000 %
+b000 &
+b000 '
+b000 (
+0)
+$end
+#0
+0!
+b000 "
+b000 #
+b000 $
+b000 %
+b000 &
+b000 '
+b000 (
+0)
+b001 %
+b001 #
+#5
+1)
+#10
+0)
+#15
+1)
+#20
+0)
+#25
+1)
+#30
+0)
+#35
+1)
+#40
+0)
+#45
+1)
+#50
+0)
+#55
+1)
+#60
+0)
+#65
+1)
+#70
+0)
+#75
+1)
+#80
+0)
+#85
+1)
+#90
+0)
+#95
+1)
